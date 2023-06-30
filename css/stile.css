@@ -1,0 +1,160 @@
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url('../img/background2.jpg');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem; /* 16 x .8 = tamanho da fonte em px / adaptação de acordo a tela */
+}
+
+a:hover {
+    color: #08558b;
+}
+
+/* Conteiner login*/
+
+#login-container {
+    background-color: #FFF;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Form */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558B;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #08558B;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1B223C;
+    transition: .3s;
+}
+
+/* Social container*/
+
+#social-container, #social-container p {
+    margin-bottom: 20px;
+}
+
+#social-container i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #FFf;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    background-color: #3B5998;
+}
+
+.fa-linkedin {
+    background-color: #0077b5;
+}
+
+.fa-google {
+    background-color:rgb(86, 91, 89);
+}
+
+.fa-twitter {
+    background-color: #1694d8;
+}
+
+.fa-instagram {
+    background-color: #DD2A7B;
+}
+
+/* Hover icon */
+.fa-facebook-f:hover {
+    background-color: #1B223C;
+    transition: .2s;
+}
+
+.fa-linkedin:hover {
+    background-color: #1B223C;
+    transition: .2s;
+}
+
+.fa-google:hover {
+    background-color: #1B223C;
+    transition: .2s;
+}
+
+.fa-twitter:hover {
+    background-color: #1B223C;
+    transition: .2s;
+}
+
+.fa-instagram:hover {
+    background-color: #1B223C;
+    transition: .2s;
+}
+
+/* Register */
+
+#register-container p {
+    margin-bottom: 10px;
+}
